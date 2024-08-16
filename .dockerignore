@@ -1,0 +1,72 @@
+# Python-specific files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.pdb
+*.egg
+*.egg-info/
+*.dist-info/
+
+# Django-specific files
+*.log
+*.pot
+*.mo
+*.sqlite3
+*.py[co]
+
+# Ignore virtual environments
+venv/
+.env
+.venv/
+
+# python
+app/__pycache__
+app/*/__pycache__
+app/*/*/__pycache__
+app/*/*/*/__pycache__
+app/*/*/*/*/__pycache__
+
+# Ignore IDE/editor config files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore tests and other development files
+tests/
+docs/
+
+# Ignore files related to Docker itself
+Dockerfile
+docker-compose.yml
+
+# Ignore static and media files (if generated during build)
+static/
+media/
+
+# Ignore Git files
+.git/
+.gitignore
+
+# Ignore environment configuration files
+.env
+*.env
+
+# Node.js dependencies (if using npm/yarn for frontend)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Exclude deployment artifacts
+*.tar.gz
+*.zip
+*.bak
+
+# Exclude build artifacts
+build/
+dist/
